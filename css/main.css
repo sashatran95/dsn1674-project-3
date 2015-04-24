@@ -1,0 +1,105 @@
+/*
+Paletes:
+#E54723 - Orange Red
+#FFAB35 - Yellow Orange
+#FFE732 - Yellow
+#A9F374 - Grean Tea
+#08B6D7 - Blue
+
+Fonts: font-family: 'Baumans', cursive;
+		font-family: "Oxygen", sans-serif;
+*/
+
+html {
+	box-sizing: border-box;
+
+	font: normal 100%/1.5 "Oxygen", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner {
+	width: 50%;
+	clear: both;
+	position: relative;
+
+	background-image: url("images/pho-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 32px auto;
+
+}
+
+h1 {
+	font-family: 'Baumans', cursive;
+	font-size: 16pt;
+
+}nav {
+  padding-top: 1rem;
+
+}
+
+nav ul {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: #E54723;
+  border-left: 1px solid #FFE732;
+  border-top: 1px solid #FFE732;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+  width: 50%;
+
+  border-bottom: 1px solid #FFE732;
+  border-right: 1px solid #FFE732;
+}
+
+nav i {
+  font-style: normal;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 0.75em;
+
+  color: #FFE732;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #FFAB35;
+
+  color: #FFE732;
+}
+
+p {
+  margin: 2rem;
+  color: #08B6D7;
+}
+
+.tablesbanner {
+	width: 50%;
+	clear: both;
+	position: relative;
+
+	background-image: url("images/inside.jpg");
+	background-repeat: no-repeat;
+	background-size: 32px auto;
+}
+.wrap {
+	background-color: #E54723;
+	color: #FFE732;
+}
+.menu{
+	padding-top: 5rem;
+}
