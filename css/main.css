@@ -140,8 +140,12 @@ nav a:hover {
 	text-align: center;
 }
 .ourmission{
-	font-size: 38px;
-	padding: -10em;
+	font-size: 45px;
+	padding: 0em;
+	margin: -27px;
+}
+.tohavehap{
+
 }
 .quotes{
 	padding: -3em;
