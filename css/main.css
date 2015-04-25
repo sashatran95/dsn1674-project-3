@@ -19,20 +19,44 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
-
+img{
+	display: block;
+	width: 100%;
+}
 body{
 	margin: 0;
 	padding: 0;
+/*}
+.imgpho{
+	width: 50%;
+	clear: both;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;*/
+}
+.imglogo {
+	width: 90%;
+	padding: 0;
+
 }
 .banner {
 	width: 50%;
 	clear: both;
 	text-align: center;
+	margin: 0 auto;
+
+	padding: calc(-4em + 20vw) 0 0;
+
+  	background: url("../images/pho-banner.jpg") center center / cover no-repeat;
+  	clear: both;
 }
 
 h1 {
 	font-family: 'Baumans', cursive;
 	font-size: 16pt;
+}
+.bnnoodle{
+	font-size: 14pt;
 
 }nav {
   padding-top: 1rem;
@@ -86,11 +110,27 @@ nav a:hover {
 	width: 50%;
 	clear: both;
 	position: relative;
+
 }
-.wrap {
-	background-color: #E54723;
+.quotes{
+	padding: -3em;
+
+}
+.menuwrap {
 	color: #FFE732;
+	clear: both;
+	margin-bottom: 1.5rem;
+	padding: 1em 0;
+
+	background-color: #E54723;
+  	border-bottom: 1px solid #d05c2e;
+  	border-top: 1px solid #d05c2e;
 }
-.menu{
-	padding-top: 5rem;
+h2{
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+
+	text-align: center;
+	font-size: 26pt;
+	font-family: 'Baumans', cursive;
 }
