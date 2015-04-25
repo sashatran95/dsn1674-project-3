@@ -40,25 +40,14 @@ body{
 	margin: 0 auto;
 
 }
-.banner {
-  	margin: 0 ;
-  	padding: 0;
-  	position: relative;
-}
-.phobanner{
-  	margin: 0 auto;
-  	padding: 0;
-  	position: inherit;
-  	clear: both;
-  	width: 100%
+.banner figure{
+	position: relative;
 }
 
 .banner figcaption {
-  bottom: -57px;
-  padding: 31px;
+  bottom: 0em;
   position: absolute;
   width: 100%;
-
   text-align: center;
 }
 h1 {
@@ -82,7 +71,17 @@ h1 {
 	padding: 0;
 	width: 100%;
 }
+.inside figure{
+	position: relative;
+}
 
+.inside figcaption {
+  bottom: 3em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+
+}
 nav ul {
   margin: 0;
   overflow: hidden;
