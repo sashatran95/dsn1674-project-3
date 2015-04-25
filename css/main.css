@@ -42,13 +42,16 @@ body{
 }
 .banner figure{
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 .banner figcaption {
-  bottom: 0em;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+	margin: 0 auto;
+  	bottom: 0em;
+  	position: absolute;
+  	width: 100%;
+  	text-align: center;
 }
 h1 {
 	font-family: 'Baumans', cursive;
@@ -73,6 +76,7 @@ h1 {
 }
 .inside figure{
 	position: relative;
+	margin: 0;
 }
 
 .inside figcaption {
