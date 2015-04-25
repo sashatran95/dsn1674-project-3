@@ -112,6 +112,14 @@ nav a:hover {
 	position: relative;
 
 }
+.tablesbannerp{
+	font-family: 'Baumans', cursive;
+	text-align: center;
+}
+.ourmission{
+	font-size: 38px;
+	padding: -10em;
+}
 .quotes{
 	padding: -3em;
 
@@ -134,3 +142,20 @@ h2{
 	font-size: 26pt;
 	font-family: 'Baumans', cursive;
 }
+.menu figcaption{
+	color: #FFAB35;
+
+}
+
+.location{
+	background-color: 
+}
+
+.location map {
+  margin: 0;
+  padding: 10px;
+
+  border: 5px solid #FFE732;
+  border-radius: 10px;
+}
+
