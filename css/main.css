@@ -35,17 +35,31 @@ body{
 	padding: 0;*/
 }
 .imglogo {
-	width: 90%;
+	width: 57%;
 	padding: 0;
+	margin: 0 auto;
 
 }
 .banner {
-	width: 50%;
-	clear: both;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
+  	margin: 0 ;
+  	padding: 0;
+  	position: relative;
+}
+.phobanner{
+  	margin: 0 auto;
+  	padding: 0;
+  	position: inherit;
+  	clear: both;
+  	width: 100%
+}
 
+.banner figcaption {
+  bottom: -57px;
+  padding: 31px;
+  position: absolute;
+  width: 100%;
+
+  text-align: center;
 }
 h1 {
 	font-family: 'Baumans', cursive;
