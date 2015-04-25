@@ -27,12 +27,7 @@ body{
 .banner {
 	width: 50%;
 	clear: both;
-	position: relative;
-
-	background-image: url("images/pho-banner.jpg");
-	background-repeat: no-repeat;
-	background-size: 32px auto;
-
+	text-align: center;
 }
 
 h1 {
@@ -91,10 +86,6 @@ nav a:hover {
 	width: 50%;
 	clear: both;
 	position: relative;
-
-	background-image: url("images/inside.jpg");
-	background-repeat: no-repeat;
-	background-size: 100px auto;
 }
 .wrap {
 	background-color: #E54723;
