@@ -164,8 +164,11 @@ footer{
 }
 footer img{
 	width: 40%;
-	position: center;
+	position: center;i
 	clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
 
 }
 .ty {
