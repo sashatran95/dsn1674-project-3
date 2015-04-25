@@ -191,6 +191,7 @@ h2{
   	display: block;
   	width: 60%;
   	float: left;
+  	position: relative;
   	clear: both;
 }
 
